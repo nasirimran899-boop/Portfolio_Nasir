@@ -4,8 +4,8 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
-  base: '/Portfolio_Nasir/',
   return {
+    base: '/Portfolio_Nasir/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
